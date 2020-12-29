@@ -20,7 +20,7 @@ const initialState = JSON.parse(localStorage.getItem('store') || 'null') || {
   todos: [
     {
       id: 0,
-      title: 'Reading a book',
+      title: 'Read a book',
       status: 0,
     },
     {

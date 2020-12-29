@@ -1,6 +1,6 @@
 # Todo App
 
-[LIVE](https://todo-maksymilian-org.netlify.com)
+[LIVE](https://todo-maksymilian-org.netlify.app)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
