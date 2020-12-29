@@ -1,5 +1,9 @@
-.todos-col.dragover * {
-  pointer-events: none;
+.todos-col {
+  margin-bottom: 1rem;
+
+  &.dragover * {
+    pointer-events: none;
+  }
 }
 
 .todos-content {

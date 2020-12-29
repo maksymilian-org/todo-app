@@ -14,18 +14,16 @@ const App: React.FC = () => {
   }, [store]);
 
   return (
-    <div className="app">
+    <div className="container">
       <header className="app-header">
         <h1>My Todo App</h1>
       </header>
       <main className="app-main">
-        <div className="container">
-          <Form />
-          <div className="row">
-            <Column header="Todo" status={0} color="#75c0e0" />
-            <Column header="In progress" status={1} color="#fecf6a" />
-            <Column header="Complete" status={2} color="#82caaf" />
-          </div>
+        <Form />
+        <div className="row">
+          <Column header="Todo" status={0} color="#75c0e0" />
+          <Column header="In progress" status={1} color="#fecf6a" />
+          <Column header="Complete" status={2} color="#82caaf" />
         </div>
       </main>
     </div>

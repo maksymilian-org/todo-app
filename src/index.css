@@ -1,6 +1,6 @@
 html,
 #root {
-  height: 100%;
+  min-height: 100%;
 }
 
 body {
@@ -12,6 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 16px;
+  background: #edf2f9;
 }
 
 code {

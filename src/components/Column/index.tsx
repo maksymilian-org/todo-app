@@ -53,7 +53,7 @@ const Column: React.FC<IColumn> = ({ header, status, color }) => {
   return (
     <section
       ref={ref}
-      className="col todos-col"
+      className="col-12 col-lg-4 todos-col"
       onDragEnter={() => handleDragEnter()}
       onDragOver={(e) => handleDragOver(e)}
       onDragLeave={() => handleDragLeave()}
