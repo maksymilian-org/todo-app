@@ -1,0 +1,19 @@
+.todos-col.dragover * {
+  pointer-events: none;
+}
+
+.todos-content {
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  background: #f5f8fc;
+  overflow: hidden;
+
+  .dragover & {
+    box-shadow: 0 0 2px 2px #75c0e0;
+  }
+
+  header {
+    padding: 0 1rem;
+    border-top: 3px solid #000;
+  }
+}

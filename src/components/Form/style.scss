@@ -1,0 +1,37 @@
+.todo-form {
+  text-align: center;
+  margin: 1rem 0;
+  display: flex;
+
+  input {
+    flex: 1;
+    max-width: 100%;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    background: #fff;
+    border-radius: 5px 0 0 5px;
+    border-right: 0;
+
+    &:focus {
+      outline: 0;
+    }
+  }
+
+  button {
+    border: 0;
+    padding: 1rem;
+    border-radius: 0 5px 5px 0;
+    background: #75c0e0;
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+
+    &:hover {
+      background: #99c1d3;
+    }
+
+    &:focus {
+      outline: 0;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+.todo-content {
+  margin: 0 0.5rem 0.5rem;
+  padding: 1.5rem 1rem 0 1rem;
+  background: #ffffff;
+  border-radius: 5px;
+  cursor: grab;
+
+  p {
+    margin: 0;
+    line-height: 1.5;
+  }
+}
+
+.todo-icons {
+  text-align: right;
+
+  button {
+    border: 0;
+    background: 0;
+    margin-left: 0.5rem;
+    padding: 0;
+
+    path {
+      transition: fill 0.3s;
+    }
+
+    &:focus {
+      outline: 0;
+    }
+
+    &:hover path {
+      fill: #999 !important;
+    }
+  }
+}
